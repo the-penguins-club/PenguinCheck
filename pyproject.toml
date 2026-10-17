@@ -7,7 +7,10 @@ authors = [
     { name = "rozari0", email = "rozario@duck.com" }
 ]
 requires-python = ">=3.14"
-dependencies = ["psutil>=7.0.0"]
+dependencies = [
+    "psutil>=7.0.0",
+    "pysmart>=1.4.3",
+]
 
 [project.scripts]
 penguincheck = "penguincheck:main"
